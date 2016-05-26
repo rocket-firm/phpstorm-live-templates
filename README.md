@@ -49,6 +49,16 @@ PHP | Generates/surrounds selection with foreach
 ```
 PHP | Generates/surrounds selection with if
 
+### var
+```
+<?php
+/**
+ * @var $END$
+ */
+?>
+```
+PHPDoc | Generates PHP comment block with @var
+
 ## PHP шаблоны
 
 ### rmt
