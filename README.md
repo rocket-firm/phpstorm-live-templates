@@ -59,6 +59,16 @@ PHP | Generates/surrounds selection with if
 ```
 PHPDoc | Generates PHP comment block with @var
 
+### cmt
+```
+<?php
+/*
+$SELECTION$
+*/
+?>
+```
+PHP | Generates/surronds selection with php comment
+
 ## PHP шаблоны
 
 ### rmt
