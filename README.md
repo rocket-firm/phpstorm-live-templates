@@ -61,11 +61,9 @@ PHPDoc | Generates PHP comment block with @var
 
 ### cmt
 ```
-<?php
-/*
+<?php /*
 $SELECTION$
-*/
-?>
+*/ ?>
 ```
 PHP | Generates/surronds selection with php comment
 
