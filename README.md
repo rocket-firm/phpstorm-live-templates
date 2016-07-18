@@ -21,6 +21,12 @@ PHP | Echo php code.
 ```
 YII2 | Translation of word via Yii:t()
 
+### url
+```
+<?= Url::to('$SELECTION$') ?>
+```
+YII2 | Url helper
+
 ### php
 ```
 <?php $END$ ?>
