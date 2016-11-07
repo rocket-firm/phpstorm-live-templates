@@ -27,6 +27,18 @@ YII2 | Translation of word via Yii:t()
 ```
 YII2 | Url helper
 
+### uweb
+```
+<?= Url::to('@web/$END$') ?>
+```
+YII2 | Url helper
+
+### route
+```
+<?= Url::to(['$END$']) ?>
+```
+YII2 | Url helper
+
 ### php
 ```
 <?php $END$ ?>
