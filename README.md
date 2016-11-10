@@ -6,15 +6,15 @@
 
 ### ""
 ```
-—
+«$SELECTION$»
 ```
-All | Emdash (Long dash)
+Typograpghy | Double-angle quotation mark
 
 ### --
 ```
 —
 ```
-All | Emdash (Long dash)
+Typograpghy | Emdash (Long dash)
 
 ## HTML шаблоны
 
