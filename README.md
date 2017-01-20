@@ -16,6 +16,18 @@ Typograpghy | Double-angle quotation mark
 ```
 Typograpghy | Emdash (Long dash)
 
+## Шаблоны Bootstrap и тем
+
+### widget
+```
+<div class="widget">
+    <div class="widget-content padding">
+        $SELECTION$
+    </div>
+</div>
+```
+Boostrap | Widget tags
+
 ## HTML шаблоны
 
 ### =
