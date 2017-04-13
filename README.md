@@ -123,6 +123,19 @@ $this->registerMetaTag([
 ```
 Yii2 | Register Meta-tags
 
+### yiitrans
+```php
+$transaction  = Yii::$app->db->beginTransaction();
+try {
+    $END$
+    $transaction->commit();
+} catch (\Exception $e) {
+    $transaction->rollBack();
+}
+```
+
+Yii2 | DB transaction
+
 ### act
 ```php
 public function action$NAME$($PARAMETERS$)
@@ -133,4 +146,3 @@ public function action$NAME$($PARAMETERS$)
 
 Yii2 | Controller action
 
-### 
