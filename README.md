@@ -123,7 +123,6 @@ $this->registerMetaTag([
 ```
 Yii2 | Register Meta-tags
 
-
 ### yiitrans
 ```php
 $transaction  = Yii::$app->db->beginTransaction();
