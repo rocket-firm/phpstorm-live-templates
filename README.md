@@ -123,4 +123,14 @@ $this->registerMetaTag([
 ```
 Yii2 | Register Meta-tags
 
+### act
+```php
+public function action$NAME$($PARAMETERS$)
+{
+    return $END$;
+}
+```
+
+Yii2 | Controller action
+
 ### 
