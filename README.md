@@ -123,4 +123,18 @@ $this->registerMetaTag([
 ```
 Yii2 | Register Meta-tags
 
+
+### yiitrans
+```php
+$transaction  = Yii::$app->db->beginTransaction();
+try {
+    $END$
+    $transaction->commit();
+} catch (\Exception $e) {
+    $transaction->rollBack();
+}
+```
+
+Yii2 | DB transaction
+
 ### 
