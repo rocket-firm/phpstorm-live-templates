@@ -19,7 +19,7 @@ Typograpghy | Emdash (Long dash)
 ## Шаблоны Bootstrap и тем
 
 ### widget
-```
+```html
 <div class="widget">
     <div class="widget-content padding">
         $SELECTION$
@@ -31,55 +31,55 @@ Boostrap | Widget tags
 ## HTML шаблоны
 
 ### =
-```
+```php
 <?= $END$ ?>
 ```
 PHP | Echo php code.
 
 ### ec
-```
+```php
 <?= $END$ ?>
 ```
 PHP | Echo php code.
 
 ### yt
-```
+```php
 <?= Yii::t('frontend', '$SELECTION$') ?>
 ```
 YII2 | Translation of word via Yii:t()
 
 ### url
-```
+```php
 <?= Url::to('$SELECTION$') ?>
 ```
 YII2 | Url helper
 
 ### uweb
-```
+```php
 <?= Url::to('@web/$END$') ?>
 ```
 YII2 | Url helper
 
 ### route
-```
+```php
 <?= Url::to(['$END$']) ?>
 ```
 YII2 | Url helper
 
 ### php
-```
+```php
 <?php $END$ ?>
 ```
 PHP | Open php tag
 
 ### nf
-```
+```php
 <?= number_format($VAR$, 0, ',', ' ') ?>
 ```
 PHP | Number Format
 
 ### foreach
-```
+```php
 <?php foreach($ARRAY$ as $KEY$ => $VALUE$): ?>
     $SELECTION$
 <?php endforeach ?>
@@ -87,7 +87,7 @@ PHP | Number Format
 PHP | Generates/surrounds selection with foreach
 
 ### if
-```
+```php
 <?php if ($CONDITION$) : ?>
     $SELECTION$
 <?php endif; ?>
@@ -95,7 +95,7 @@ PHP | Generates/surrounds selection with foreach
 PHP | Generates/surrounds selection with if
 
 ### var
-```
+```php
 <?php
 /**
  * @var $END$
@@ -105,7 +105,7 @@ PHP | Generates/surrounds selection with if
 PHPDoc | Generates PHP comment block with @var
 
 ### cmt
-```
+```php
 <?php /*
 $SELECTION$
 */ ?>
@@ -115,7 +115,7 @@ PHP | Generates/surronds selection with php comment
 ## PHP шаблоны
 
 ### rmt
-```
+```php
 $this->registerMetaTag([
     'name' => '$TAGNAME$',
     'content' => $SELECTION$,
@@ -136,4 +136,13 @@ try {
 
 Yii2 | DB transaction
 
-### 
+### act
+```php
+public function action$NAME$($PARAMETERS$)
+{
+    return $END$;
+}
+```
+
+Yii2 | Controller action
+
