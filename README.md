@@ -1,12 +1,18 @@
-Подробнее с шаблонами можно познакомиться [здесь](https://www.jetbrains.com/help/phpstorm/2016.1/live-templates.html).
-Все шаблоны предназначены для php и yii2. В качестве аббревиатуры выступает заголовок.
+# PHPStorm Live Templates
 
-- [Шаблоны для всех областей применения](#Шаблоны-для-всех-областей-применения)
-    - [Typograpghy | Double-angle quotation mark | ("")](#Шаблоны-для-всех-областей-применения)
+[Table of contents](#table-of-contents)
+Read more about JetBrains' live templates [here](https://www.jetbrains.com/help/phpstorm/2016.1/live-templates.html).
+Use template's header as abbreviation.
+
+![Demo GIF](https://github.com/rocket-firm/phpstorm-live-templates/raw/master/demo.gif)
+
+## Table of contents
+- [Typography templates](#typography-templates)
+    - [Typograpghy | Double-angle quotation mark | ("")](#typography-templates)
     - [Typograpghy | Emdash (Long dash) | (--)](#--)
-- [Шаблоны Bootstrap и тем](Шаблоны-bootstrap-и-тем)
+- [Bootstrap templates](#bootstrap-templates)
     - [Boostrap | Widget tags | (widget)](#widget)
-- [HTML шаблоны](#html-шаблоны)
+- [HTML templates](#html-templates)
     - [PHP | Echo php code | (=)](#-1)
     - [PHP | Echo php code | (ec)](#ec)
     - [YII2 | Translation of word via Yii:t() | (yt)](#yt)
@@ -19,13 +25,13 @@
     - [PHP | Generates/surrounds selection with if | (if)](#if)
     - [PHPDoc | Generates PHP comment block with @var | (var)](#var)
     - [PHP | Generates/surronds selection with php comment | (cmt)](#cmt)
-- [PHP шаблоны](#php-шаблоны)
+- [PHP templates](#php-templates)
     - [Yii2 | Register Meta-tags | (rmt)](#rmt)
     - [Yii2 | DB transaction | (yiitrans)](#yiitrans)
     - [Yii2 | Controller action | (act)](#act)
+- [Contributors](#contributors)
 
-## Шаблоны для всех областей применения
-
+## Typography templates
 
 ### "" 
 ```
@@ -39,7 +45,9 @@ Typograpghy | Double-angle quotation mark
 ```
 Typograpghy | Emdash (Long dash)
 
-## Шаблоны Bootstrap и тем
+[To top](#table-of-contents)
+
+## Bootstrap templates
 
 ### widget
 ```html
@@ -51,7 +59,9 @@ Typograpghy | Emdash (Long dash)
 ```
 Bootstrap | Widget tags
 
-## HTML шаблоны
+[To top](#table-of-contents)
+
+## HTML templates
 
 ### =
 ```php
@@ -135,7 +145,9 @@ $SELECTION$
 ```
 PHP | Generates/surronds selection with php comment
 
-## PHP шаблоны
+[To top](#table-of-contents)
+
+## PHP templates
 
 ### rmt
 ```php
@@ -169,3 +181,9 @@ public function action$NAME$($PARAMETERS$)
 
 Yii2 | Controller action
 
+[To top](#table-of-contents)
+
+# Contributors
+
+- [@naffiq](https://github.com/naffiq)
+- [@MKiselev](https://github.com/MKiselev)
