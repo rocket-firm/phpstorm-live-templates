@@ -1,13 +1,13 @@
 # PHPStorm Live Templates
 
-[📍 Table of contents](#table-of-contents)
+[📍 Table of Contents](#table-of-contents)
 
 Read more about JetBrains' live templates [here](https://www.jetbrains.com/help/phpstorm/2016.1/live-templates.html).
 Use template's header as abbreviation.
 
 ![Demo GIF](https://github.com/rocket-firm/phpstorm-live-templates/raw/master/demo.gif)
 
-## Table of contents
+## Table of Contents
 - [Typography templates](#typography-templates)
     - [Typograpghy | Double-angle quotation mark | ("")](#typography-templates)
     - [Typograpghy | Emdash (Long dash) | (--)](#--)
