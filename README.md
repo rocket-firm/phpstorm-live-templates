@@ -2,7 +2,7 @@
 Все шаблоны предназначены для php и yii2. В качестве аббревиатуры выступает заголовок.
 
 - [Шаблоны для всех областей применения](#Шаблоны-для-всех-областей-применения)
-    - [Typograpghy | Double-angle quotation mark | ("")]
+    - [Typograpghy | Double-angle quotation mark | ("")](#Шаблоны-для-всех-областей-применения)
     - [Typograpghy | Emdash (Long dash) | (--)](#--)
 - [Шаблоны Bootstrap и тем](Шаблоны-bootstrap-и-тем)
     - [Boostrap | Widget tags | (widget)](#widget)
