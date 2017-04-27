@@ -1,6 +1,6 @@
 # PHPStorm Live Templates
 
-[Table of contents](#table-of-contents)
+[📍 Table of contents](#table-of-contents)
 
 Read more about JetBrains' live templates [here](https://www.jetbrains.com/help/phpstorm/2016.1/live-templates.html).
 Use template's header as abbreviation.
