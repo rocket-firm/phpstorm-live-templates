@@ -49,7 +49,7 @@ Typograpghy | Emdash (Long dash)
     </div>
 </div>
 ```
-Boostrap | Widget tags
+Bootstrap | Widget tags
 
 ## HTML шаблоны
 
