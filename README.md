@@ -125,7 +125,7 @@ Yii2 | Register Meta-tags
 
 ### yiitrans
 ```php
-$transaction  = Yii::$app->db->beginTransaction();
+$transaction = Yii::$app->db->beginTransaction();
 try {
     $END$
     $transaction->commit();
