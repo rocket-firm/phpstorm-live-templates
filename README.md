@@ -1,5 +1,7 @@
 # PHPStorm Live Templates
 
+### You can download configs with all of the Templates listed below as one file [⬇️ Here](https://github.com/rocket-firm/phpstorm-live-templates/releases/download/0.1.0/rocket-firm-live-templates.jar)
+
 [📍 Table of Contents](#table-of-contents)
 
 Read more about JetBrains' live templates [here](https://www.jetbrains.com/help/phpstorm/2016.1/live-templates.html).
