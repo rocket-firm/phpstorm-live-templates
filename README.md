@@ -18,20 +18,26 @@ Use template's header as abbreviation.
 - [HTML templates](#html-templates)
     - [PHP | Echo php code | (=)](#-1)
     - [PHP | Echo php code | (ec)](#ec)
-    - [YII2 | Translation of word via Yii:t() | (yt)](#yt)
-    - [YII2 | Url helper | (url)](#url)
-    - [YII2 | Url helper | (uweb)](#uweb)
-    - [YII2 | Url helper | (route)](#route)
+    - [Yii2 | Translation of word via Yii:t() | (yt)](#yt)
+    - [Yii2 | Url helper | (url)](#url)
+    - [Yii2 | Url helper | (uweb)](#uweb)
+    - [Yii2 | Url helper | (route)](#route)
     - [PHP | Open php tag | (php)](#php)
     - [PHP | Number Format | (nf)](#nf)
     - [PHP | Generates/surrounds selection with foreach | (foreach)](#foreach)
     - [PHP | Generates/surrounds selection with if | (if)](#if)
     - [PHPDoc | Generates PHP comment block with @var | (var)](#var)
     - [PHP | Generates/surronds selection with php comment | (cmt)](#cmt)
+    - [PHP | Dump variable and exit | (dd)](#dd)
 - [PHP templates](#php-templates)
     - [Yii2 | Register Meta-tags | (rmt)](#rmt)
     - [Yii2 | DB transaction | (yiitrans)](#yiitrans)
     - [Yii2 | Controller action | (act)](#act)
+    - [Yii2 | Translation of word via Yii:t() | (yt)](#yt)
+    - [PHP | Dump variable and exit | (dd)](#dd-)
+- [JavaScript templates](#javascript-templates)
+    - [JavaScript | Console log | (con)](#con)
+    - [JavaScript | NodeJS exit | (pex)](#pex)
 - [Contributors](#contributors)
 
 ## Typography templates
@@ -80,7 +86,7 @@ PHP | Echo php code.
 
 ### yt
 ```php
-<?= Yii::t('frontend', '$SELECTION$') ?>
+<?= Yii::t('app', '$SELECTION$') ?>
 ```
 YII2 | Translation of word via Yii:t()
 
@@ -129,6 +135,18 @@ PHP | Generates/surrounds selection with foreach
 <?php endif; ?>
 ```
 PHP | Generates/surrounds selection with if
+
+### dd 
+```php
+<?php
+echo '<pre>';
+var_dump($END$);
+echo '</pre>';
+exit();
+?>
+```
+
+PHP | Dump variable and exit
 
 ### var
 ```php
@@ -183,6 +201,39 @@ public function action$NAME$($PARAMETERS$)
 ```
 
 Yii2 | Controller action
+
+### yt
+```php
+Yii::t('app', '$SELECTION$')
+```
+
+YII2 | Translation of word via Yii:t()
+
+### dd
+```php
+echo '<pre>';
+var_dump($END$);
+echo '</pre>';
+?>
+```
+
+PHP | Dump variable and exit
+
+[To top](#table-of-contents)
+
+## JavaScript templates
+
+### con
+```js
+console.log($END$);
+```
+JavaScript | Console log
+
+### pex
+```js
+process.exit();
+```
+JavaScript | NodeJS exit
 
 [To top](#table-of-contents)
 
