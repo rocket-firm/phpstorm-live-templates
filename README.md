@@ -33,8 +33,8 @@ Use template's header as abbreviation.
     - [Yii2 | Register Meta-tags | (rmt)](#rmt)
     - [Yii2 | DB transaction | (yiitrans)](#yiitrans)
     - [Yii2 | Controller action | (act)](#act)
-    - [Yii2 | Translation of word via Yii:t() | (yt)](#yt)
-    - [PHP | Dump variable and exit | (dd)](#dd)
+    - [Yii2 | Translation of word via Yii:t() | (yt)](#yt-1)
+    - [PHP | Dump variable and exit | (dd)](#dd-1)
 - [JavaScript templates](#javascript-templates)
     - [JavaScript | Console log | (con)](#con)
     - [JavaScript | NodeJS exit | (pex)](#pex)
@@ -214,7 +214,7 @@ YII2 | Translation of word via Yii:t()
 echo '<pre>';
 var_dump($END$);
 echo '</pre>';
-?>
+exit();
 ```
 
 PHP | Dump variable and exit
