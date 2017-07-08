@@ -34,7 +34,7 @@ Use template's header as abbreviation.
     - [Yii2 | DB transaction | (yiitrans)](#yiitrans)
     - [Yii2 | Controller action | (act)](#act)
     - [Yii2 | Translation of word via Yii:t() | (yt)](#yt)
-    - [PHP | Dump variable and exit | (dd)](#dd-)
+    - [PHP | Dump variable and exit | (dd)](#dd)
 - [JavaScript templates](#javascript-templates)
     - [JavaScript | Console log | (con)](#con)
     - [JavaScript | NodeJS exit | (pex)](#pex)
