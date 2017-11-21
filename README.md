@@ -204,7 +204,7 @@ Yii2 | Controller action
 
 ### yt
 ```php
-Yii::t('app', '$SELECTION$')
+Yii::t('app', '$SELECTION$');
 ```
 
 YII2 | Translation of word via Yii:t()
